@@ -1,0 +1,37 @@
+#include<stdio.h>
+#define ROW 10
+#define COL 10
+int main()
+{
+int matrix[ROW][COL];
+int i,j,r,c;
+printf("enter number of rows");
+scanf("%d",&r);
+printf("enter no of columns");
+scanf("%d",&c);
+printf("\nenter matrix elements");
+for(i=0;i<r;i++)
+{
+for(j=0;j<c;j++)
+{
+printf("enter elements[%d][%d]:",i+1,j+1);
+scanf("%d",&matrix[i][j]);
+}
+{
+            printf("Enter element [%d,%d] : ",i+1,j+1);
+            scanf("%d",&matrix[i][j]);
+        }
+    }        
+            for(i=0;i< c;i++)
+            {
+                for(j=0;j< r;j++)
+                {
+ 
+                    if(i==j)
+                        printf("%d",matrix[j][i]); 
+                        }
+                    else
+                        printf("\n");
+                        }
+                        }
+                        }
